@@ -248,7 +248,7 @@ ls results/
 
 ### Related Publications
 * **Information Theory**: Shannon, C.E. (1948) - Mathematical foundation for PWM quality metrics
-* **CTCF Biology**: Phillips, J.E. & Corces, V.G. (2009) - CTCF master regulator of genome architecture
+* **CTCF Biology**: Phillips, J.E. & Corces, V.G. (2009) - CTCF: master weaver of the genome
 * **PWM Methodology**: Stormo, G.D. (2000) - DNA binding sites: representation and discovery
 * **Statistical Validation**: Wasserman, W.W. & Sandelin, A. (2004) - Applied bioinformatics for identification of regulatory elements
 
