@@ -1,0 +1,23 @@
+=== Efficient Aligned PWM Report ===
+Created: 2025-06-11 20:52:20.018086 
+Input file: data/aligned_sequences.fasta 
+Number of sequences: 35368 
+PWM dimensions: 4 x 216 
+Pseudocount: 0.01 
+Processing time: 0.48 seconds
+
+=== Quality Metrics ===
+Total information content: 0.695 bits
+Average per position: 0.003 bits
+Maximum per position: 0.024 bits
+Median per position: 0.001 bits
+Conserved positions (>1 bit): 0 
+Highly conserved positions (>1.5 bit): 0 
+
+=== Pseudocount Optimization ===
+  pseudocount mean_info    sd_info
+1        0.01 0.8594465 0.01775247
+2        0.05 0.8593649 0.01775078
+3        0.10 0.8592629 0.01774867
+4        0.50 0.8584476 0.01773177
+5        1.00 0.8574301 0.01771069

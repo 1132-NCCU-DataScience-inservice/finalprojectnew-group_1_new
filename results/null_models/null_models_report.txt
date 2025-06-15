@@ -1,0 +1,50 @@
+=== Null Model Generation Report ===
+Generated: 1749646302 
+Input file: data/training_sequences.fasta 
+Original sequences: 37628 
+Valid sequences used: 24000 
+Replicates per model: 100 
+
+=== Null Model Statistics ===
+
+ RANDOM NULL MODEL:
+Description: Random sequences with matched overall base composition 
+Total Information Content:
+  Mean ± SD: 0.02 ± 0.001 bits
+  Range: 0.017 - 0.022 bits
+  95% CI: 0.018 - 0.022 bits
+Conserved Positions (>1 bit):
+  Mean ± SD: 0 ± 0 
+  Range: 0 - 0 
+Average Information per Position:
+  Mean ± SD: 1e-04 ± 0 bits
+
+ SHUFFLED NULL MODEL:
+Description: Sequences with shuffled order, preserving individual composition 
+Total Information Content:
+  Mean ± SD: 0.019 ± 0.001 bits
+  Range: 0.017 - 0.022 bits
+  95% CI: 0.017 - 0.022 bits
+Conserved Positions (>1 bit):
+  Mean ± SD: 0 ± 0 
+  Range: 0 - 0 
+Average Information per Position:
+  Mean ± SD: 1e-04 ± 0 bits
+
+ POSITION_SHUFFLED NULL MODEL:
+Description: Position-wise shuffled sequences 
+Total Information Content:
+  Mean ± SD: 0.773 ± 0 bits
+  Range: 0.773 - 0.773 bits
+  95% CI: 0.773 - 0.773 bits
+Conserved Positions (>1 bit):
+  Mean ± SD: 0 ± 0 
+  Range: 0 - 0 
+Average Information per Position:
+  Mean ± SD: 0.0036 ± 0 bits
+
+=== Files Generated ===
+Null model sequences: 300 FASTA files
+PWM metrics: results/null_models/null_pwm_metrics.rds 
+Summary statistics: results/null_models/null_summary_statistics.rds 
+This report: results/null_models/null_models_report.txt 

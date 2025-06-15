@@ -1,0 +1,45 @@
+=== Advanced Alignment PWM Comparison Report ===
+Created: 2025-06-11 20:53:34.186162 
+Input file: data/training_sequences.fasta 
+Alignment method: length 
+Number of sequences: 37628 
+Aligned sequences: 37628 
+
+Approach Comparison:
+Approach   | Total Info   | Avg Info   | Conserved    | Length  
+----------------------------------------------------------------- 
+basic      |        0.741 |      0.003 |            0 |      216
+filtered   |        0.741 |      0.003 |            0 |      216
+strict     |        0.648 |      0.005 |            0 |      125
+
+Detailed Results:
+
+---  basic  ---
+PWM dimensions: 4 x 216 
+Original length: 216 
+Final length: 216 
+Total information: 0.741 bits
+Average per position: 0.003 bits
+Conserved positions: 0 
+Highly conserved positions: 0 
+Conserved regions: 0 
+
+---  filtered  ---
+PWM dimensions: 4 x 216 
+Original length: 216 
+Final length: 216 
+Total information: 0.741 bits
+Average per position: 0.003 bits
+Conserved positions: 0 
+Highly conserved positions: 0 
+Conserved regions: 0 
+
+---  strict  ---
+PWM dimensions: 4 x 125 
+Original length: 216 
+Final length: 125 
+Total information: 0.648 bits
+Average per position: 0.005 bits
+Conserved positions: 0 
+Highly conserved positions: 0 
+Conserved regions: 0 

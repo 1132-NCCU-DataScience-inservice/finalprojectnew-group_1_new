@@ -1,0 +1,11 @@
+{
+  "creation_time": "2025-06-11 20:52:30.285558",
+  "input_file": "data/training_sequences.fasta",
+  "total_sequences": 37628,
+  "filtered_sequences": 24125,
+  "best_pseudocount": 0.01,
+  "total_information": 2.473,
+  "average_information": 0.011,
+  "high_info_positions": 1,
+  "pwm_dimensions": "4 x 226"
+}
