@@ -323,10 +323,10 @@ If you use this pipeline in research, please cite:
 ```bibtex
 @software{ctcf_pwm_pipeline_2025,
   title={CTCF PWM Testing Pipeline: Quality-over-Quantity Approach to Transcription Factor Modeling},
-  author={Lin, Ying-Yan and {Group 1 Contributors}},
+  author={Lin, Ying-Yan, 蔣政寬, 邱世凎 & 張育瑋},
   year={2025},
   url={https://github.com/iiyyll01lin/ctcf-predictor},
-  note={Version 2.1, DOI: 10.xxxx/xxxxx}
+  note={Version 2.1, DOI: }
 }
 ```
 
@@ -347,5 +347,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ---
 
 **🔬 Course Project**: Data Science Final Project, Spring 2025
+
+_This project forks from the Github project of the team member Jason YY Lin - [ctcf-predictor](https://github.com/iiyyll01lin/ctcf-predictor/tree/202506-rc1) and will not be maintianed after 202506-rc6. Check the origin repo for the latest updates._
 
 <!-- **🔬 Revolutionary Discovery**: First scientific proof that small, curated datasets dramatically outperform large, unfiltered datasets in transcription factor modeling. -->
