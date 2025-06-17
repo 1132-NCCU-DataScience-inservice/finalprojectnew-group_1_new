@@ -334,25 +334,37 @@ pwm_quality_control <- function(pwm, sequences_used) {
 
 ### Key Formulas
 
-**Information Content**:
+**Information Content (IC)**:
 ```
 IC(i) = 2 + Σ f(b,i) × log₂(f(b,i))
 ```
+- **Purpose**: Measures how specific each position is (0-2 bits per position)
+- **Interpretation**: Higher values = more conserved/specific nucleotides
+- **Application**: Used to identify important binding positions in CTCF motifs
 
 **Total Information**:
 ```
 Total IC = Σ IC(i) for all positions i
 ```
+- **Purpose**: Sum of IC across all positions in the motif
+- **Interpretation**: Overall measure of motif quality/specificity
+- **Benchmark**: Your pipeline achieved 19.592 bits (excellent quality)
 
-**Relative Entropy (Kullback-Leibler Divergence)**:
+**Relative Entropy (Kullback-Leibler Divergence)**: (optional, nearly the same role as IC)
 ```
 D_KL = Σ f(b,i) × log₂(f(b,i) / 0.25)
 ```
+- **Purpose**: Compares observed frequencies to random background (0.25 each)
+- **Interpretation**: Alternative way to measure position conservation
+- **Application**: Higher values = stronger deviation from random sequence
 
 **Logo Height (for visualization)**:
 ```
 Height(b,i) = f(b,i) × IC(i)
 ```
+- **Purpose**: Formula for sequence logo visualization
+- **Function**: Determines how tall each nucleotide letter appears
+- **Method**: Combines frequency and information content for visual representation
 
 ### Quality Thresholds (CTCF-Specific)
 
